@@ -1,5 +1,5 @@
 - hosts: webservers
-  become: yes
+  become: yes # make sure it runs as root
   roles:
     - common
     - apache2
